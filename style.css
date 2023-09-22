@@ -1,13 +1,59 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: white;
-  background-color: black;
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: antiquewhite;
+}
+
+ul {
+  list-style: none;
 }
 
 h2 {
-  color: pink;
-  background-color: aliceblue;
+  color: rgb(139, 0, 0);
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+img.food {
+  display: inline-block;
+  width: 200px;
+  /* vertical-align: top; */
+}
+
+.recipe-card {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.recipe-content {
+  padding: 20px;
+  display: inline-block;
+  width: 580px;
+  vertical-align: top;
+}
+
+.recipe-card.feature {
+  display: inline;
+}
+
+.recipe-info {
+  display: inline-block;
+  width: 380px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+ul li h2 {
+  font-size: 16px;
 }
